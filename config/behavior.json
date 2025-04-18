@@ -1,0 +1,19 @@
+{
+    "verbosity": "INFO",
+    "log_level": "INFO",
+    "log_path": "logs/",
+    "random_state": 42,
+    "random_seeds": [42, 43, 44],
+    "plot_params": {
+        "figure.figsize": [14, 8],
+        "font.size": 28,
+        "axes.labelsize": 28,
+        "axes.titlesize": 30,
+        "xtick.labelsize": 20,
+        "ytick.labelsize": 20,
+        "legend.fontsize": 22,
+        "grid.alpha": 0.5,
+        "grid.linestyle": "--",
+        "axes.grid": true
+    }
+}

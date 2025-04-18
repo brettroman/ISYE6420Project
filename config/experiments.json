@@ -1,0 +1,21 @@
+{
+    "data": {
+        "teams": {
+            "endpoint": "https://api.sportsdata.io/v3/mlb/scores/json/AllTeams"
+        },
+        "team_batting": {
+            "endpoint": "https://api.sportsdata.io/v3/mlb/stats/json/PlayerSeasonStatsByTeam",
+            "season_range": [1973, 2024],
+            "season_exclude": [2020],
+            "dir": "data/team_batting",
+            "vis_path": "team_batting",
+            "cumulative_dir": "data/league_batting",
+            "vis_cumulative_path": "league_batting"
+        },
+        "league": {
+            "dir": "data/league",
+            "vis_path": "league",
+            "comparisons": ["AVG", "OPS", "HR"]
+        }
+    }
+}
